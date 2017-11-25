@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.fadpws" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>AppAgendaApp</name>
+    <description>
+        Agenda App para capturar los  datos de las personas..
+    </description>
+    <author email="monicagomez251096@gmail.com" href="http://camaleoncreativo.com">
+    	Monica Gómez
+    </author>
+    <content src="index.html" />
+    <access origin="http://especialistasenlaweb.com" />
+    <plugin name="cordova-plugin-whitelist" source="npm" />
+    <allow-navigation href="*" />
+    <allow-intent href="*" /> 
+</widget>
