@@ -1,12 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.phonegap.fadpws" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>WebServiceFADP</name>
+    <name>AppAgendaApp</name>
     <description>
-        A blank PhoneGap app.
+        Agenda App para capturar los  datos de las personas..
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="monicagomez251096@gmail.com" href="http://camaleoncreativo.com">
+    	Monica Gómez
     </author>
     <content src="index.html" />
-    <access origin="*" />
+    <access origin="http://especialistasenlaweb.com" />
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
 </widget>

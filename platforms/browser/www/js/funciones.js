@@ -4,8 +4,11 @@ $("#miformulario").submit(function(evento){
 	//console.info("Activando formulario....");
 	var cadena=$(this).serializeArray();
 	//console.info(cadena);
+
 	$.ajax({
-		url:"http://localhost/prueba.php"
+		url:"http://especialistasenlaweb.com/mgrdatos.php",
+		type:"post",
+		data:cadena
 
 
 	}).done(function(respuesta){
@@ -15,3 +18,4 @@ $("#miformulario").submit(function(evento){
 	});
 
 });
+
